@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="07832571-bd4e-49a3-87ee-abfc97da8376" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/area-set.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/area-set_d.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/cap.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/checkpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/control_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/counterclockleft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/counterclockright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/finished.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/folder_user.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/history.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/leftundo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/login_5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/magnify1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/map.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/mobilephone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/narrow1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/prior.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/refusetask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/refusetask1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/rightundo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/running.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Images/user.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/JS/Config.js" afterPath="$PROJECT_DIR$/public/JS/Config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Login.html" afterPath="$PROJECT_DIR$/public/Login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Main.ejs" afterPath="$PROJECT_DIR$/views/Main.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/CSS/Page_Main.css" afterPath="$PROJECT_DIR$/public/CSS/Page_Main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/JS/Page_Main.js" afterPath="$PROJECT_DIR$/public/JS/Page_Main.js" />
+    </list>
+    <ignored path="MobileCheckStatistics.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/a.html" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1366861832383" ignored="false" />
+    <file path="/Main.ejs" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367853659198" ignored="false" />
+    <file path="/index.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1366941485356" ignored="false" />
+    <file path="/Page_Main.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368439027421" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_UserCheck.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367892576880" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_GetPictures.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367030955804" ignored="false" />
+    <file path="/Interface_GetPictures.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367030931117" ignored="false" />
+    <file path="/Interface_UserCheck.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367031440481" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_UploadFiles.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367033588130" ignored="false" />
+    <file path="/Interface_UploadFiles.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367033587786" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/config.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368439206640" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/mysqlConn.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367892576880" ignored="false" />
+    <file path="/mysqlConn.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368416548098" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/config.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368155974029" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/mysqlConn.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368416687363" ignored="false" />
+    <file path="/config.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368155157095" ignored="false" />
+    <file path="/Login.html" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367557453898" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/app.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367547255378" ignored="false" />
+    <file path="/Config.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368429821269" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/Interface_Login.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368174641699" ignored="false" />
+    <file path="/Interface_Login.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367557186673" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/sqlFilter.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368171445211" ignored="false" />
+    <file path="/sqlFilter.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367550815079" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/Interface_GetTaskList.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367892576880" ignored="false" />
+    <file path="/Interface_GetTaskList.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368089432282" ignored="false" />
+    <file path="/Page_Main.css" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368439163305" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/Interface_GetSystemTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368434126217" ignored="false" />
+    <file path="/Interface_GetSystemTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368171659850" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/ifFilter.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367895408105" ignored="false" />
+    <file path="/ifFilter.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367895394769" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_RepostTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367900881610" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_PushMessage.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368155965407" ignored="false" />
+    <file path="/Interface_RepostTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367900279239" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_BindPushUser.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367908821458" ignored="false" />
+    <file path="/Interface_BindPushUser.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1367907574419" ignored="false" />
+    <file path="/Interface_PushMessage.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368155652609" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_GetTaskList.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368090566260" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_CreateTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368169193171" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/sqlFilter.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368171436126" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckService/Interface_UpdateTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368416802776" ignored="false" />
+    <file path="/Interface_UpdateTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368416669250" ignored="false" />
+    <file path="$PROJECT_DIR$/../MobileCheckService/MobileCheckAuditPlatform/Interface_GetMineTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368439352841" ignored="false" />
+    <file path="/Interface_GetMineTask.js" changelist="07832571-bd4e-49a3-87ee-abfc97da8376" time="1368439241651" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MobileCheckStatistics" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Page_Main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/JS/Page_Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="302" column="64" selection-start="10892" selection-end="10892" vertical-scroll-proportion="0.17307693">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1368439287058" expanded="false" signature="7587:7596" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="13969:13996" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14081:14097" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14129:14156" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14249:14265" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14297:14324" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14387:14403" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14436:14463" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14527:14543" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14576:14603" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14668:14684" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14717:14744" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14812:14828" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14861:14888" placeholder="..." />
+                <marker date="1368439287058" expanded="true" signature="14926:14940" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="1" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/JS/Config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Main.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="63" selection-start="411" selection-end="411" vertical-scroll-proportion="-5.5172415">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page_Main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/CSS/Page_Main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="21" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/JS/config.js" />
+        <option value="$PROJECT_DIR$/public/Login.html" />
+        <option value="$PROJECT_DIR$/views/Main.ejs" />
+        <option value="$PROJECT_DIR$/public/JS/Config.js" />
+        <option value="$PROJECT_DIR$/public/CSS/Page_Main.css" />
+        <option value="$PROJECT_DIR$/public/JS/Page_Main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileCheckAuditPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileCheckService" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform\public\Images" />
+      <recent name="D:\20130506\MobileCheckAuditPlatform\public\Images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform" />
+          <option name="myCopyRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform" />
+          <option name="myCopyRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform\public\CSS" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform" />
+          <option name="myCopyRoot" value="E:\公司项目\20130326_理赔业务辅助系统\理赔业务辅助系统\src\MobileCheckAuditPlatform" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07832571-bd4e-49a3-87ee-abfc97da8376" name="Default" comment="" />
+      <created>1366861609455</created>
+      <updated>1366861609455</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15531336" sideWeight="0.6947705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30522946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="48" selection-end="53" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Main.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="7" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="48" selection-end="53" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/jquery-1.6.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/Md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="1" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Main.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="63" selection-start="411" selection-end="411" vertical-scroll-proportion="-5.5172415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/Page_Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="21" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/Page_Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="64" selection-start="10892" selection-end="10892" vertical-scroll-proportion="0.17307693">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1368439287058" expanded="false" signature="7587:7596" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="13969:13996" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14081:14097" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14129:14156" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14249:14265" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14297:14324" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14387:14403" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14436:14463" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14527:14543" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14576:14603" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14668:14684" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14717:14744" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14812:14828" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14861:14888" placeholder="..." />
+            <marker date="1368439287058" expanded="true" signature="14926:14940" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

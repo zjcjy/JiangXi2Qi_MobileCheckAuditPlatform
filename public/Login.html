@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>系统登录</title>
+    <script type="text/javascript" src="Extjs3/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="Extjs3/ext-all.js"></script>
+    <link rel="stylesheet" href="Extjs3/resources/css/ext-all.css"/>
+    <script type="text/javascript" src="JS/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="JS/Md5.js"></script>
+    <script type="text/javascript" src="JS/Config.js"></script>
+</head>
+<body style="overflow: hidden;">
+<div style="position:absolute;width:100%;height:100%;z-index: -9999;"><img src="Images/bg.jpg" style="width:100%;height:100%;"/></div>
+<script type="text/javascript">
+Ext.BLANK_IMAGE_URL = "Extjs3/resources/images/default/s.gif";
+    Ext.onReady(function(){
+        var win = new Ext.Window({
+            id: 'login-win',
+            closable: false, //隐藏关闭
+            title: '用户登录界面',
+            width: 300,
+            height: 120,
+            plain: true,
+            resizable:false,
+            items: new Ext.form.FormPanel({
+                id: 'login-form',
+                labelWidth: 80, // 默认标签宽度板
+                labelAlign: 'right',
+                buttonAlign: 'center',
+                clientValidation: true,
+                //不设置该值，表单将保持原样，设置后表单与窗体完全融合
+                baseCls: 'header',
+                layout: 'form',
+                defaults: {
+                    width: 160
+                },
+                defaultType: 'textfield',
+                items: [{
+                        name: 'username',
+                        fieldLabel: '用户名称',
+                        id: "username",
+                        allowBlank: false//禁止为空
+                    }, {
+                        name: 'password',
+                        id: 'password',
+                        inputType: 'password',
+                        fieldLabel: '用户密码',
+                        allowBlank: false,
+                        selectOnFocus: true
+                    }],
+                buttons: [{
+                            text: '登录',
+                            type: 'submit',
+                            handler: LoginIn
+                           },
+                           {
+                            text: '重置',
+                            handler: function clear() {
+                            Ext.getCmp('login-form').getForm().getEl().dom.reset();
+                        }
+                    }],
+                keys: [{
+                    key: Ext.EventObject.ENTER,
+                    fn: LoginIn, //LoginIn是button提交表单的单击事件的函数名
+                    scope: this
+                    }]
+            })
+        });
+        win.show();    //将窗口显示出来
+    });
+
+function LoginIn(){
+    var username = document.getElementById("username").value;
+    var pwd = Ext.getCmp("password").getValue();
+    pwd = hex_md5(pwd);
+    if (!Ext.getCmp('login-form').getForm().isValid())
+        return;
+    $.ajax({
+        type : "get",
+        async:false,
+        url : ServiceIP+ServiceName+'/Login?username='+username+'&pwd='+pwd,
+        dataType : "jsonp",
+        jsonp: "callbackname",//服务端用于接收callback调用的function名的参数
+        jsonpCallback:"jsonpCallbackLogin",//callback的function名称
+        success : function(json){
+            if(json.code == 0){
+                Ext.getCmp('login-win').hide();
+                Ext.Msg.progress("成功", "登陆成功,正在跳转中...请稍候");
+                location.href = "main?username=" + username;
+            } else {
+                Ext.Msg.alert('登陆失败', json.cause);
+            }
+        },
+        error:function(){
+            alert('fail');
+        }
+    });
+}
+
+    function jsonpCallbackLogin(aaa)
+    {
+        //alert('func');
+        //跨域回调函数额外事件。
+        //先执行此函数再执行success
+    }
+</script>
+</body>

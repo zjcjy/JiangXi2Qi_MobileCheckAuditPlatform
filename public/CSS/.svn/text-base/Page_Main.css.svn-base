@@ -1,0 +1,28 @@
+/*
+ *主页底部按钮图标样式
+ */
+
+/*资料录入*/
+.toolBar-Button-DataEntry{background-image:url(../Images/btn_DataEntry.gif) !important;}
+
+/*本地浏览*/
+.toolBar-Button-LocalView{background-image:url(../Images/btn_LocalView.gif) !important;}
+
+/*风险判定*/
+.toolBar-Button-RiskJudge{background-image:url(../Images/btn_RiskJudge.gif) !important;}
+
+/*结案*/
+.toolBar-Button-CloseCase{background-image:url(../Images/btn_CloseCase.gif) !important;}
+
+/*语音对讲*/
+.toolBar-Button-VoiceIntercomOff{background-image:url(../Images/btn_VoiceIntercomOff.gif) !important;}
+.toolBar-Button-VoiceIntercomOn{background-image:url(../Images/btn_VoiceIntercomOn.gif) !important;}
+
+/*抓拍*/
+.toolBar-Button-SnapPhoto{background-image:url(../Images/btn_SnapPhoto.gif) !important;}
+
+/*拆检点视频*/
+.toolBar-Button-CheckStationVideo{background-image:url(../Images/btn_CheckStationVideo.gif) !important;}
+
+/*获取任务*/
+.toolBar-Button-GetTask{background-image:url(../Images/btn_GetTask.gif) !important;}

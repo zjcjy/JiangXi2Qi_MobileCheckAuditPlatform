@@ -1,0 +1,104 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Administrator
+ * Date: 13-4-26
+ * Time: 上午10:15
+ * To change this template use File | Settings | File Templates.
+ */
+
+Ext.onReady(function(){
+    var west_Panel = new Ext.Panel({//左边大Panel壳子
+        layout:'border',
+        id:'west_Panel',
+        region: 'west',
+        width:200,
+        items:[
+            new Ext.Panel({//左上Panel
+                id:'west_North_Panel',
+                region: 'north',
+                bodyBorder:false,//边框，统一不显示。
+                height:150,
+                html:'west_North_Panel'
+            }),
+            new Ext.Panel({//左中和左下Panel的壳子
+                layout:'border',
+                id:'west_Center_Panel',
+                region: 'center',
+                items:[
+                    new Ext.Panel({//左中Panel
+                        id:'west_Center_North_Panel',
+                        region: 'north',
+                        title:'任务信息',
+                        height:150,
+                        html:'west_Center_North_Panel'
+                    }),
+                    new Ext.TabPanel({//左下TabPanel壳子
+                        id:'west_Center_Center_Panel',
+                        region: 'center',
+                        activeTab:0,//默认触发第一个TabPanel页
+                        items:[
+                            new Ext.Panel({//左下TabPanel_1
+                                id:'west_Center_Center_TabPanel_1',
+                                title:'在线查勘员',
+                                html:'west_Center_Center_TabPanel_1'
+                            }),
+                            new Ext.Panel({//左下TabPanel_2
+                                id:'west_Center_Center_TabPanel_2',
+                                title:'拆检点',
+                                html:'west_Center_Center_TabPanel_2'
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+
+    var east_Panel = new Ext.Panel({//右边任务列表大Panel壳子
+        layout:'border',
+        id:'east_Panel',
+        region: 'east',
+        width:200,
+        items:[
+            new Ext.Panel({//右上Panel
+                id:'east_North_Panel',
+                region: 'north',
+                title:'待分配任务',
+                height:300,
+                html:'east_North_Panel'
+            }),
+            new Ext.Panel({//右下Panel
+                id:'east_Center_Panel',
+                region: 'center',
+                title:'我的任务列表',
+                html:'east_Center_Panel'
+            })
+        ]
+
+    });
+
+    var center_Panel = new Ext.Panel({//中间Panel壳子
+        layout:'border',
+        id:'center_Panel',
+        region: 'center',
+        items:[
+            new Ext.Panel({//中上Panel
+                id:'center_North_Panel',
+                region: 'north',
+                title:'任务图片信息',
+                height:150,
+                html:'center_North_Panel'
+            }),
+            new Ext.Panel({//中下Panel
+                id:'center_Center_Panel',
+                region: 'center',
+                html:'center_Center_Panel'
+            })]
+
+    });
+
+    var viewport = new Ext.Viewport({
+        layout:'border',
+        items:[west_Panel,east_Panel,center_Panel]
+    });
+});
