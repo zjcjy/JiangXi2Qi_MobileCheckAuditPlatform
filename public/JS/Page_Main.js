@@ -88,7 +88,13 @@ Ext.onReady(function(){
                                 //alert('单击查看信息。ID:'+node.id);
                                 TaskClick(node.id.split('_')[1],'SystemTask');
                             },//监听节点的点击事件。
-                            'dblclick':function(node){alert('双击获取任务。ID:'+node.id);}
+                            'dblclick':function(node){
+                                Ext.Msg.confirm('系统提示','是否领取该任务 [ '+node.text+' ] ?',
+                                    function(btn){
+                                        if(btn=='yes')
+                                            GetTaskByID(selectChild.id.split('_')[1]);
+                                    });
+                                }
                         },
                         root: {
                             nodeType: 'async',
@@ -117,7 +123,9 @@ Ext.onReady(function(){
                                 //alert('单击查看信息。ID:'+node.id);
                                 TaskClick(node.id.split('_')[1],'MineTask');
                             },//监听节点的点击事件。
-                            'dblclick':function(node){alert('双击获取任务。ID:'+node.id);}
+                            'dblclick':function(node){
+                                //alert('双击获取任务。ID:'+node.id);
+                            }
                         },
                         root: {
                             nodeType: 'async',
@@ -200,7 +208,21 @@ Ext.onReady(function(){
                         id:'btn_GetTask',
                         iconCls:'toolBar-Button-GetTask',
                         text:'获取任务',
-                        listeners:{'click':function(){}}
+                        listeners:{
+                            'click':function(){
+                                var selectChild = Ext.getCmp('treeSystemTask').getSelectionModel().getSelectedNode();
+                                if(selectChild)
+                                {
+                                    Ext.Msg.confirm('系统提示','是否领取该任务 [ '+selectChild.text+' ] ?',
+                                        function(btn){
+                                            if(btn=='yes')
+                                                GetTaskByID(selectChild.id.split('_')[1]);
+                                        });
+                                }
+                                else
+                                    Ext.Msg.alert('提示', '请先选择一个待分配任务。');
+                            }
+                        }
                     }),
                     '<span id="workstate" style="color:Red">繁忙</span>'
                 ]
@@ -222,10 +244,11 @@ Ext.onReady(function(){
 function GetSystemTask()
 {
     $.ajax({
-        type : "get",
+        type : "post",
         async:false,
         url : ServiceIP+ServiceName+'/GetSystemTask',
         dataType : "jsonp",
+        data:{"RandomTag":Math.random()},
         jsonp: "callbackname",//服务端用于接收callback调用的function名的参数
         jsonpCallback:"jsonpCallbackGetSystemTask",//callback的function名称
         success : function(json){
@@ -290,23 +313,23 @@ function GetSystemTask()
             alert('fail');
         }
     });
-    setTimeout(GetSystemTask,GetSystemTaskTimeSet);//10秒测试一次
+    setTimeout(GetSystemTask,GetSystemTaskTimeSet);//定时获取系统任务
 }
-
 
 //获取我的任务
 function GetMineTask()
 {
     $.ajax({
-        type : "get",
+        type : "post",
         async:false,
-        url : ServiceIP+ServiceName+'/GetMineTask?username='+'d1',
+        url : ServiceIP+ServiceName+'/GetMineTask',
         dataType : "jsonp",
+        data:{'username':getParamValue('username'),"RandomTag":Math.random()},
         jsonp: "callbackname",//服务端用于接收callback调用的function名的参数
         jsonpCallback:"jsonpCallbackGetMineTask",//callback的function名称
         success : function(json){
             if(json.code == 0){
-                $("#divcenter_Center_Panel").html(JSON.stringify(json));
+                //$("#divcenter_Center_Panel").html(JSON.stringify(json));
                 var treeRoot = Ext.getCmp('treeMineTask').getRootNode();
                 MineTaskStore = json["value"]["minetask_list"];
                 var jsonStr = JSON.stringify(MineTaskStore);
@@ -360,6 +383,55 @@ function GetMineTask()
 
             } else {
                 Ext.Msg.alert('我的任务列表获取失败', json.cause);
+            }
+        },
+        error:function(){
+            alert('fail');
+        }
+    });
+}
+
+//获取系统任务到我的任务列表中
+function GetTaskByID(TaskID)
+{
+    $.ajax({
+        type : "post",
+        async:false,
+        url : ServiceIP+ServiceName+'/GetTaskByID',
+        dataType : "jsonp",
+        data:{'username':getParamValue('username'),'taskid':TaskID,"RandomTag":Math.random()},
+        jsonp: "callbackname",//服务端用于接收callback调用的function名的参数
+        jsonpCallback:"jsonpCallbackGetTaskByID",//callback的function名称
+        success : function(json){
+            if(json.code == 0){
+                var treeSystemRoot = Ext.getCmp('treeSystemTask').getRootNode();
+                var treeMineRoot = Ext.getCmp('treeMineTask').getRootNode();
+
+                if(json.value>0){
+                    treeSystemRoot.eachChild(function(addChild){
+                        if (addChild.id.split('_')[1] == TaskID) {
+                            treeMineRoot.appendChild(addChild);//将该系统任务移动到我的任务树
+                            for(var s=0;s<SystemTaskStore.length;s++)
+                            {
+                                if(SystemTaskStore[s].TaskID == TaskID)
+                                {
+                                    MineTaskStore.push(SystemTaskStore[s]);
+                                    SystemTaskStore.splice(s,1);
+                                    break;
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    Ext.Msg.alert('任务获取失败', "任务不存在或已被他人获取。");
+                    treeSystemRoot.eachChild(function(delChild){
+                        if (delChild.id.split('_')[1] == TaskID) {
+                            treeSystemRoot.removeChild(delChild);//将该系统任务删除
+                        }
+                    });
+                }
+            } else {
+                Ext.Msg.alert('任务获取失败', json.cause);
             }
         },
         error:function(){

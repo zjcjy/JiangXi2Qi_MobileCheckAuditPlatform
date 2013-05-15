@@ -77,10 +77,11 @@ function LoginIn(){
     if (!Ext.getCmp('login-form').getForm().isValid())
         return;
     $.ajax({
-        type : "get",
+        type : "post",
         async:false,
-        url : ServiceIP+ServiceName+'/Login?username='+username+'&pwd='+pwd,
+        url : ServiceIP+ServiceName+'/Login',
         dataType : "jsonp",
+        data:{"username":username,"pwd":pwd},
         jsonp: "callbackname",//服务端用于接收callback调用的function名的参数
         jsonpCallback:"jsonpCallbackLogin",//callback的function名称
         success : function(json){

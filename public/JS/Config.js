@@ -6,7 +6,7 @@ var ServiceIP = "http://127.0.0.1:8000/";
 var ServiceName = "MobileCheckAuditPlatform";
 
 //定时拉取系统任务(未分配任务)[单位：毫秒]
-var GetSystemTaskTimeSet = 20000;//
+var GetSystemTaskTimeSet = 300000;//
 
 
 
